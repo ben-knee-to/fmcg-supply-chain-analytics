@@ -1,0 +1,10 @@
+{
+  "rows": 25000,
+  "unique_warehouses": 25000,
+  "total_recorded_shipped_weight": 552565823.0,
+  "mean_shipped_weight": 22102.63292,
+  "median_shipped_weight": 22101.0,
+  "std_shipped_weight": 11607.755076596377,
+  "target_units": "tons per source dictionary (unverified)",
+  "warning": "Shipment weight is not actual customer demand; no time series is provided."
+}

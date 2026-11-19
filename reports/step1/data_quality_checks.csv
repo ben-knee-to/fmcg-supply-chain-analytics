@@ -1,0 +1,21 @@
+check,affected_rows,severity,note
+duplicate_rows,0,high,Exact duplicate rows
+duplicate_warehouse_ids,0,review,Unique ID assumption; verify grain
+missing_target,0,high,Target must be present
+nonpositive_target,0,high,Target should be positive
+missing_establishment_year,11881,review,Do not impute before investigating
+future_establishment_year,0,review,Potential invalid year
+negative_worker_count,0,high,Negative counts invalid
+negative_num_refill_req_l3m,0,high,Negative count or distance
+negative_transport_issue_l1y,0,high,Negative count or distance
+negative_Competitor_in_mkt,0,high,Negative count or distance
+negative_retail_shop_num,0,high,Negative count or distance
+negative_distributor_num,0,high,Negative count or distance
+negative_dist_from_hub,0,high,Negative count or distance
+negative_storage_issue_reported_l3m,0,high,Negative count or distance
+negative_wh_breakdown_l3m,0,high,Negative count or distance
+negative_govt_check_l3m,0,high,Negative count or distance
+invalid_binary_flood_impacted,0,high,Expected 0 or 1
+invalid_binary_flood_proof,0,high,Expected 0 or 1
+invalid_binary_electric_supply,0,high,Expected 0 or 1
+invalid_binary_temp_reg_mach,0,high,Expected 0 or 1

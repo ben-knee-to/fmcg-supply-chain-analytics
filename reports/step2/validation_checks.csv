@@ -1,0 +1,34 @@
+check,affected_rows,severity
+num_refill_req_l3m: negative,0,error
+transport_issue_l1y: negative,0,error
+Competitor_in_mkt: negative,0,error
+retail_shop_num: negative,0,error
+distributor_num: negative,0,error
+workers_num: negative,0,error
+storage_issue_reported_l3m: negative,0,error
+wh_breakdown_l3m: negative,0,error
+govt_check_l3m: negative,0,error
+dist_from_hub: negative,0,error
+product_wg_ton: negative,0,error
+flood_impacted: not 0/1,0,error
+flood_proof: not 0/1,0,error
+electric_supply: not 0/1,0,error
+temp_reg_mach: not 0/1,0,error
+num_refill_req_l3m: non-integer,0,error
+transport_issue_l1y: non-integer,0,error
+Competitor_in_mkt: non-integer,0,error
+retail_shop_num: non-integer,0,error
+distributor_num: non-integer,0,error
+workers_num: non-integer,0,error
+storage_issue_reported_l3m: non-integer,0,error
+wh_breakdown_l3m: non-integer,0,error
+govt_check_l3m: non-integer,0,error
+wh_est_year: non-integer,0,error
+wh_est_year: outside 1900-2026,0,review
+Location_type: missing,0,review
+WH_capacity_size: missing,0,review
+zone: missing,0,review
+WH_regional_zone: missing,0,review
+wh_owner_type: missing,0,review
+approved_wh_govt_certificate: missing,908,review
+exact duplicate rows,0,review

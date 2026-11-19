@@ -1,0 +1,38 @@
+{
+  "selected_model": "hist_gradient_boosting_tuned",
+  "cv_selection_mae": 6450.051229141416,
+  "holdout": {
+    "mae": 6425.846273361495,
+    "rmse": 8343.850171721557,
+    "r2": 0.4796718273447059
+  },
+  "n_train": 20000,
+  "n_holdout": 5000,
+  "features": [
+    "Location_type",
+    "WH_capacity_size",
+    "zone",
+    "WH_regional_zone",
+    "Competitor_in_mkt",
+    "retail_shop_num",
+    "wh_owner_type",
+    "distributor_num",
+    "flood_impacted",
+    "flood_proof",
+    "electric_supply",
+    "dist_from_hub",
+    "workers_num",
+    "wh_est_year",
+    "temp_reg_mach",
+    "approved_wh_govt_certificate",
+    "wh_est_year_missing",
+    "workers_num_missing",
+    "approved_wh_govt_certificate_missing",
+    "retailers_per_distributor",
+    "distributors_per_1000_retailers",
+    "hub_distance_band",
+    "has_competition"
+  ],
+  "evaluation": "random warehouse holdout, not future-period validation",
+  "target": "historical shipment weight, not customer demand"
+}

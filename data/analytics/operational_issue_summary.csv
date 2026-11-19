@@ -1,0 +1,16 @@
+metric,group,record_count,mean_shipped_weight,median_shipped_weight,total_shipped_weight
+num_refill_req_l3m,zero,2912,21964.932005494506,22105.5,63961882
+num_refill_req_l3m,positive,22088,22120.786897863094,22101.0,488603941
+num_refill_req_l3m,missing,0,,,0
+transport_issue_l1y,zero,15215,23606.135326979955,24074.0,359167349
+transport_issue_l1y,positive,9785,19764.790393459378,19101.0,193398474
+transport_issue_l1y,missing,0,,,0
+storage_issue_reported_l3m,zero,908,5430.472466960352,5090.0,4930869
+storage_issue_reported_l3m,positive,24092,22730.987630748798,23066.0,547634954
+storage_issue_reported_l3m,missing,0,,,0
+wh_breakdown_l3m,zero,908,5430.472466960352,5090.0,4930869
+wh_breakdown_l3m,positive,24092,22730.987630748798,23066.0,547634954
+wh_breakdown_l3m,missing,0,,,0
+govt_check_l3m,zero,0,,,0
+govt_check_l3m,positive,25000,22102.63292,22101.0,552565823
+govt_check_l3m,missing,0,,,0

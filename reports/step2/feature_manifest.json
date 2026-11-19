@@ -1,0 +1,47 @@
+{
+  "raw_rows": 25000,
+  "clean_rows": 25000,
+  "raw_columns": 24,
+  "clean_columns": 31,
+  "target": "product_wg_ton",
+  "target_missing": 0,
+  "duplicate_warehouse_ids": 0,
+  "model_columns": [
+    "Location_type",
+    "WH_capacity_size",
+    "zone",
+    "WH_regional_zone",
+    "Competitor_in_mkt",
+    "retail_shop_num",
+    "wh_owner_type",
+    "distributor_num",
+    "flood_impacted",
+    "flood_proof",
+    "electric_supply",
+    "dist_from_hub",
+    "workers_num",
+    "wh_est_year",
+    "temp_reg_mach",
+    "approved_wh_govt_certificate",
+    "wh_est_year_missing",
+    "workers_num_missing",
+    "approved_wh_govt_certificate_missing",
+    "retailers_per_distributor",
+    "distributors_per_1000_retailers",
+    "hub_distance_band",
+    "has_competition",
+    "product_wg_ton"
+  ],
+  "excluded_identifiers": [
+    "Ware_house_ID",
+    "WH_Manager_ID"
+  ],
+  "excluded_timing_risk": [
+    "num_refill_req_l3m",
+    "storage_issue_reported_l3m",
+    "wh_breakdown_l3m",
+    "govt_check_l3m",
+    "transport_issue_l1y"
+  ],
+  "note": "Candidate features only. Confirm each field was available at prediction time. Impute and encode inside training folds, never on full data."
+}

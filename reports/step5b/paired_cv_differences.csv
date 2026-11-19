@@ -1,0 +1,8 @@
+scenario,mae_difference_vs_full,fold_differences
+mean_baseline,3144.943693153565,"[3138.98, 3195.22, 3100.62]"
+full_conservative,0.0,"[0.0, 0.0, 0.0]"
+without_est_year,2306.885710245248,"[2280.01, 2356.62, 2284.02]"
+without_year_or_flag,2478.5318885224783,"[2467.93, 2513.81, 2453.86]"
+without_year_or_missingness,2882.7547005783817,"[2887.64, 2916.93, 2843.69]"
+without_year_or_certificate,3090.185044468259,"[3091.76, 3141.38, 3037.42]"
+stable_operational,3089.6672057436895,"[3091.76, 3141.38, 3035.87]"

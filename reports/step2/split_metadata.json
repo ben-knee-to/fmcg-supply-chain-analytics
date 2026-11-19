@@ -1,0 +1,33 @@
+{
+  "train_rows": 20000,
+  "test_rows": 5000,
+  "random_state": 42,
+  "numeric_columns": [
+    "Competitor_in_mkt",
+    "retail_shop_num",
+    "distributor_num",
+    "flood_impacted",
+    "flood_proof",
+    "electric_supply",
+    "dist_from_hub",
+    "workers_num",
+    "wh_est_year",
+    "temp_reg_mach",
+    "wh_est_year_missing",
+    "workers_num_missing",
+    "approved_wh_govt_certificate_missing",
+    "retailers_per_distributor",
+    "distributors_per_1000_retailers",
+    "has_competition"
+  ],
+  "categorical_columns": [
+    "Location_type",
+    "WH_capacity_size",
+    "zone",
+    "WH_regional_zone",
+    "wh_owner_type",
+    "approved_wh_govt_certificate",
+    "hub_distance_band"
+  ],
+  "note": "Random holdout is illustrative only; temporal validation requires timestamped records. Do not inspect tests performance until final evaluation."
+}

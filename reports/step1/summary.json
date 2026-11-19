@@ -1,0 +1,20 @@
+{
+  "rows": 25000,
+  "columns": 24,
+  "missing_cells": 13779,
+  "duplicate_rows": 0,
+  "unique_warehouse_ids": 25000,
+  "missing_expected_columns": [],
+  "unexpected_columns": [],
+  "target": {
+    "count": 25000.0,
+    "mean": 22102.6329,
+    "std": 11607.7551,
+    "min": 2065.0,
+    "25%": 13059.0,
+    "50%": 22101.0,
+    "75%": 30103.0,
+    "max": 55151.0
+  },
+  "note": "Shipment target is historical shipped weight, not observed demand or optimal allocation."
+}
